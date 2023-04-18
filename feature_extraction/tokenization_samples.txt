@@ -1,0 +1,14 @@
+SAMPLE:  text in Arabic
+BPE:     text   in   A ra bic</w>
+ENDODED: [4160, 530, 320, 1735, 10675, 34308, 342, 285]
+DECODED: text in a ra bic </ w > 
+
+SAMPLE:  word in Russian
+BPE:     word   in   R u ssian</w>
+ENDODED: [2653, 530, 337, 340, 31218, 34308, 342, 285]
+DECODED: word in r u ssian </ w > 
+
+SAMPLE:  caption in English
+BPE:     cap tion   in   E ng lish</w>
+ENDODED: [3938, 740, 530, 324, 5215, 2354, 34308, 342, 285]
+DECODED: cap tion in e ng lish </ w >
